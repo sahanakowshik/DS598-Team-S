@@ -1,0 +1,8 @@
+top_agents
+submission*
+replays
+*.pth
+logs
+models*
+things_to_try.txt
+.DS_Store
