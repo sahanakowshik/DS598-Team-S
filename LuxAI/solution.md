@@ -1,11 +1,5 @@
-Firstly, we'd like to thank the organizers and other participants. We were able to learn much through the competition, 
-such as reinforcement learning and CNN architectures. The only regret is that we couldn't make RL work out.
-On the other hand, if it were easier to utilize RL, we wouldn't have obtained such a good 
-result due to our lack of knowledge and skills. Fortunately, we will be able to learn from the successful top teams using RL, 
-so we're looking forward to using this experience for the next time.
-
 # Summary
-Like many of the other participants, our final solution is imitation learning from top 7 agents using the almost same network architecture shared by [Sazuma's notebook](https://www.kaggle.com/shoheiazuma/lux-ai-with-imitation-learning).
+Like many of the other participants, our final solution is imitation learning from top 2 agents using the almost same network architecture shared by [Sazuma's notebook](https://www.kaggle.com/shoheiazuma/lux-ai-with-imitation-learning).
 Since it would not be desirable to train the network from a complete mixture of data from different agents, we prepared as many last FC-layers as the number of agents to learn, while the CNN architecture is shared.
 In inference, we used only the FC-layer which is trained with the top agent.
 
