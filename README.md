@@ -1,4 +1,4 @@
-# Code for Team S for DS598 Spring 2024 Course Project
+# Code for Team S at DS598 Spring 2024 Course Project
 ## Hardware
 - Trained using 2 NVIDIA RTX 2080Ti GPUs
 
